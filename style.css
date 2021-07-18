@@ -30,10 +30,14 @@ button,a{
     text-decoration: none;
     /* border: 1px solid white; */
     border: white;
-    background-color: rgb(255, 72, 102);
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
+    background-color: rgb(255, 72, 102);
+}
+button,a:hover{
+    color: rgb(255, 72, 102);
+    background-color: white;
 }
 .container{
     background: url(img/biography-bg.png) no-repeat;
@@ -56,9 +60,15 @@ button,a{
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 30px;
+    
 }
 .work img{
     height: 40vh;
+    
+}
+.work img:hover{
+    box-shadow: 10px 10px 40px gray;
 }
 .work h1{
     position: absolute;
