@@ -19,10 +19,11 @@ header{
     width: 500px;
     position: absolute;
     bottom: 50px;
+    right: 120px;
 }
 .text{
     position: absolute;
-    bottom: 275px;
+    bottom: 205px;
     left: 186px;
 }
 button,a{
@@ -33,4 +34,57 @@ button,a{
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
+}
+.container{
+    background: url(img/biography-bg.png) no-repeat;
+    /* height: 132vh; */
+    height: 100%;
+}
+.t {
+    position: absolute;
+    right: 65px;
+    padding-top: 240px;
+}
+.i img{
+    height: 620px;
+    margin: 125px;
+}
+.work{
+    background: url(img/latest-work-bg.png) no-repeat;
+    background-size: 205vh 105%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.work img{
+    height: 40vh;
+}
+.work h1{
+    position: absolute;
+    top: 1590px;
+}
+footer {
+    background-image: url(img/footer-bg.png);
+    height: 99vh;
+    background-size: 100%;
+}
+.te{
+    text-align: center;
+
+}
+    .back {
+        background-image: linear-gradient(90deg,rgb(255, 72, 102),rgb(255, 57, 57));
+        width: 47vw;
+        height: 26vh;
+        position: absolute;
+        margin: auto;
+        text-align: center;
+        border-radius: 5px;
+        right: 365px;
+        /* stroke-linecap: butt; */
+        top: 2475px;
+    }
+p{
+    color: #696969;
 }
